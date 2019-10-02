@@ -1,0 +1,61 @@
+                    Task 1: BASIC TASK
+
+1. The terminal shows me a list of things in the home folder. The ls command lists all the things in a specific folder.
+
+2. The terminal returns a folder name. This means that is the folder we currently in.
+
+3.mkdir workspace 
+cd workspace/
+
+4.The terminal does nothing. It seems this is happening because there is nothing in the workspace folder.
+
+5. touch README.md
+
+6. cp README.md CHANGELOG.md
+
+		    TASK 2: ABSOLUTE & RELATIVE PATH
+
+touch exercise.md
+mv exercise.md /tmp
+sudo rm /tmp/exercise.md 
+
+		    TASK 3: CAT COMMANDS
+
+1. touch umuzi.md recruits.md cohort.md
+2. echo 'Nhlaka' >>umuzi.md
+   echo 'Nhlaka' >>recruits.md
+   echo 'Nhlaka' >>cohort.md
+3. cat umuzi.md recruits.md cohort.md > summary.md
+4. echo 'THE END' >>summary.md
+
+		   TASK 4: THE LOCATE COMMAND
+
+1. locate umuzi
+2. locate umuzi >> search_result.md
+
+		   TASK 5: THE LOCATE cont.
+
+1. cd Documents/
+   touch pad.md
+2. cd Desktop/
+   mkdir work
+3. cp pad.md pad_copy.md ../Desktop
+4. locate updatedb
+5. cd -
+6. locate pad.md
+
+
+
+		   TASK 6: THE FIND COMMAND
+
+1. find ./ -name "*.pdf"
+2. find ./ -name "*.pdf" >> Desktop/umuzi.md
+3. find . -mtime -1 -print
+
+		   TASK 7: TEXT EDITOR 
+
+1. nano my_bio.md
+2. ctrl O, enter,ctrl x
+3. mkdir my_files
+   mv my_bio.md ../my_files
+
